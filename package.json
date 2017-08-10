@@ -1,0 +1,35 @@
+{
+  "name": "react-ideal",
+  "version": "0.0.2",
+  "description": "Run isomorphic React apps on the server without a DOM polyfill",
+  "scripts": {
+    "build-internals": "node scripts/build",
+    "rebuild-internals": "node scripts/build --skip",
+    "prepublishOnly": "node scripts/build --skip"
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "server",
+    "server-rendering",
+    "react-server",
+    "react-server-rendering",
+    "isomorphic",
+    "isomorphic-react"
+  ],
+  "dependencies": {
+    "fpx": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint_d": "5.0.0",
+    "object-assign": "4.1.1",
+    "react": "next",
+    "yargs": "8.0.2"
+  },
+  "peerDependencies": {
+    "object-assign": "*",
+    "prop-types": "^15 || ^16",
+    "react": "^15 || ^16"
+  }
+}
