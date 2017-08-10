@@ -1,6 +1,6 @@
 {
   "name": "react-ideal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Run isomorphic React apps on the server without a DOM polyfill",
   "scripts": {
     "build-internals": "node scripts/build",
@@ -29,7 +29,7 @@
   },
   "peerDependencies": {
     "object-assign": "*",
-    "prop-types": "^15 || ^16",
-    "react": "^15 || ^16"
+    "prop-types": "*",
+    "react": "^16"
   }
 }
