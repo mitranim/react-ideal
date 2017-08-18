@@ -1,6 +1,6 @@
 {
   "name": "react-ideal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Run isomorphic React apps on the server without a DOM polyfill",
   "scripts": {
     "build-internals": "node scripts/build",

@@ -36,7 +36,9 @@
 
 const {createElement} = require('react')
 const {noop, slice, id, isFunction, isObject, isArray, isList, isString, validate} = require('fpx')
-const {ReactFiberReconciler} = require('./build/react16/react-internals.development')
+const {ReactFiberReconciler} = process.env.NODE_ENV === 'production'
+  ? require('./build/react16/react-internals.production.min')
+  : require('./build/react16/react-internals.development')
 
 const CONTAINER_INFO_INSTANCE_MARKER = 'RootContainerInfoInstance'
 const ELEM_INSTANCE_MARKER = 'ElemInstance'

@@ -43,13 +43,13 @@ Key differences with `react-dom/server`:
 Install from NPM:
 
 ```sh
-npm install --save --exact react-ideal
+npm install --exact react-ideal
 ```
 
 Make sure you have React 16+:
 
 ```sh
-npm install --save --exact react@16 react-dom@16
+npm install --exact react@16 react-dom@16
 ```
 
 Use on server:
